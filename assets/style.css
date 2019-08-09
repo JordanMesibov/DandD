@@ -10,7 +10,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: rgb(119, 36, 129);
+    background-color: rgb(16, 11, 17);
     z-index: 10;
 }
 
@@ -150,8 +150,9 @@ ul :hover {
   }
 
 #content{
+    padding-left: 10px;
     /* display: flex; */
-    overflow: hidden;
+    overflow: auto;
     z-index: 9;
 }  
 
@@ -159,8 +160,9 @@ ul :hover {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 28px;
     border: none;
+    text-align: center;
   }
   
   .dropdown {
@@ -177,7 +179,7 @@ ul :hover {
     z-index: 1;
   }
   
-  .dropdown-content a {
+  .dropdown-content a{
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -189,14 +191,19 @@ ul :hover {
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-  
-.relative{
+
+
+  .dropdownspana {
+      font-size: 10px;
+  }
+
+/* .relative{
 
     position: relative;
     left: 45%;
     z-index: 9;
-}
-
+} */
+/*
 h3 {
     font-size: 40px;
 }
@@ -230,10 +237,14 @@ h4 {
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     h4 {
-        font-size: 15px;
+        font-size: 18px;
     }
+} */
+
+.hidden {
+    display: none;
 }
