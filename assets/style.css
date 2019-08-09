@@ -197,53 +197,7 @@ ul :hover {
       font-size: 10px;
   }
 
-/* .relative{
 
-    position: relative;
-    left: 45%;
-    z-index: 9;
-} */
-/*
-h3 {
-    font-size: 40px;
-}
-
-h4 {
-    font-size: 35px;
-}
-
-@media screen and (max-width: 1300px) {
-    .relative {
-        position: relative;
-        left: 36%;
-        z-index: 9;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    h4 {
-        font-size: 25px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    .relative {
-        position: relative;
-        left: 16%;
-        z-index: 9;
-    }
-
-    h3 {
-        font-size: 30px;
-    }
-
-    h4 {
-        font-size: 18px;
-    }
-} */
 
 .hidden {
     display: none;
